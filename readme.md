@@ -1,9 +1,10 @@
-## 30 Day Challenge
+## 30 Day JavaScript
 
-Challenges to do in 30ish days.
+30 challenges to do in 30(ish) days.
 
 From [JavaScript30](https://javascript30.com/):
-- [ ] 1 - [JavaScript Drum Kit 07/10/17
+
+- [ ] 1 - JavaScript Drum Kit 07/10/17
 - [ ] 2 - JS and CSS Clock
 - [ ] 3 - CSS Variables
 - [ ] 4 - Array Cardio Day 1
