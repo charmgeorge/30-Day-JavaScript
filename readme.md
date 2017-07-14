@@ -4,8 +4,8 @@
 
 From [JavaScript30](https://javascript30.com/):
 
-- [X] 1 - JavaScript Drum Kit 07/10/17
-- [ ] 2 - JS and CSS Clock
+- [X] 1 - JavaScript Drum Kit 07/11/17
+- [X] 2 - JS and CSS Clock 7/13/17 (needs some adjusting)
 - [ ] 3 - CSS Variables
 - [ ] 4 - Array Cardio Day 1
 - [ ] 5 - Flex Panel Gallery
