@@ -55,23 +55,34 @@
       console.log(fullName1)
 
 
-    // Array.prototype.sort()
-    // 3. Sort the inventors by birthdate, oldest to youngest
+// Array.prototype.sort()
+// 3. Sort the inventors by birthdate, oldest to youngest
+  const ordered = inventors.sort(function(a,b){ //a is first person, b is second
+    if(a.year > b.year){
+      return 1; //returning 1 and -1 will move people up and down while sorting in the array
+    }else{
+      return -1;
+    }
+  })
 
-    // Array.prototype.reduce()
-    // 4. How many years did all the inventors live?
+  //Same as above but using Ternary Operator /shorthand if statement (if a.year is greater than b.year if true return 1 otherwise return -1)
+  const order = inventors.sort((a,b) => a.year > b.year ? 1 : -1)
+  console.table(ordered)
+  console.table(order)
+// Array.prototype.reduce()
+// 4. How many years did all the inventors live?
 
-    // 5. Sort the inventors by years lived
+// 5. Sort the inventors by years lived
 
-    // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
-    // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+// 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+// https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
 
 
-    // 7. sort Exercise
-    // Sort the people alphabetically by last name
+// 7. sort Exercise
+// Sort the people alphabetically by last name
 
-    // 8. Reduce Exercise
-    // Sum up the instances of each of these
+// 8. Reduce Exercise
+// Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
 
   </script>
