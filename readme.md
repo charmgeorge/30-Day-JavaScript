@@ -8,7 +8,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 2 - JS and CSS Clock 7/13/17
 - [X] 3 - CSS Variables 7/15/17
 - [X] 4 - Array Cardio Day 1 REVIEW (fat arrow, console.table, back ticks in JS, ternary operator, .reduce, .sort) 7/19/17
-- [ ] 5 - Flex Panel Gallery
+- [X] 5 - Flex Panel Gallery 7/21/17
 - [ ] 6 - AJAX Type Ahead
 - [ ] 7 - Array Cardio Day 2
 - [ ] 8 - Fun with HTML5 Canvas
