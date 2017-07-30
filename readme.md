@@ -4,10 +4,10 @@
 
 From [JavaScript30](https://javascript30.com/):
 
-- [X] 1 - JavaScript Drum Kit 07/11/17 REVIEW (document.queryselector)
+- [X] 1 - JavaScript Drum Kit 07/11/17 REVIEW (document.querySelector)
 - [X] 2 - JS and CSS Clock 7/13/17
 - [X] 3 - CSS Variables 7/15/17
-- [X] 4 - Array Cardio Day 1 REVIEW (fat arrow, console.table, back ticks in JS, ternary operator, .reduce, .sort) 7/19/17
+- [X] 4 - Array Cardio Day 1 7/19/17 REVIEW (fat arrow, console.table, back ticks in JS, ternary operator, .reduce, .sort)
 - [X] 5 - Flex Panel Gallery 7/21/17
 - [X] 6 - AJAX Type Ahead 7/29/17
 - [ ] 7 - Array Cardio Day 2
