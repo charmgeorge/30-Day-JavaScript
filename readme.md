@@ -9,7 +9,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 3 - CSS Variables 7/15/17
 - [X] 4 - Array Cardio Day 1 REVIEW (fat arrow, console.table, back ticks in JS, ternary operator, .reduce, .sort) 7/19/17
 - [X] 5 - Flex Panel Gallery 7/21/17
-- [ ] 6 - AJAX Type Ahead
+- [X] 6 - AJAX Type Ahead 7/29/17
 - [ ] 7 - Array Cardio Day 2
 - [ ] 8 - Fun with HTML5 Canvas
 - [ ] 9 - Dev Tools Domination
