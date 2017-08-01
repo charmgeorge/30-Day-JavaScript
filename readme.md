@@ -10,7 +10,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 4 - Array Cardio Day 1 7/19/17 REVIEW (fat arrow, console.table, back ticks in JS, ternary operator, .reduce, .sort)
 - [X] 5 - Flex Panel Gallery 7/21/17
 - [X] 6 - AJAX Type Ahead 7/29/17
-- [ ] 7 - Array Cardio Day 2
+- [X] 7 - Array Cardio Day 2 7/30/17 REVIEW (.some(), .every(), .find(), .findIndex())
 - [ ] 8 - Fun with HTML5 Canvas
 - [ ] 9 - Dev Tools Domination
 - [ ] 10 - Hold Shift and Check Checkboxes
