@@ -12,7 +12,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 6 - AJAX Type Ahead 7/29/17
 - [X] 7 - Array Cardio Day 2 7/30/17 REVIEW (.some(), .every(), .find(), .findIndex())
 - [X] 8 - Fun with HTML5 Canvas 8/3/17 (es6 syntax, globalCompositeOperation, flag)
-- [ ] 9 - Dev Tools Domination
+- [X] 9 - Dev Tools Domination 8/7/17 (console interpolated, style, warning, error, info, assert, clear, dir, group, count, time)
 - [ ] 10 - Hold Shift and Check Checkboxes
 - [ ] 11 - Custom Video Player
 - [ ] 12 - Key Sequence Detection
