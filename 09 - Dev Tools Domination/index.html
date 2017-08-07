@@ -51,15 +51,29 @@
 
     // Grouping together
       dogs.forEach(dog => {
-        console.log('Esse é meu cachorro ${dog.name}');
-        console.log(`${dog.name} tem' ${dog.age} anos`);
-        console.log(`${dog.name} tem' ${dog.age * 7} anos em "dog years"`);
+        console.group(`${dog.name}`)
+        console.log(`Esse é meu cachorro ${dog.name}`);
+        console.log(`${dog.name} tem ${dog.age} anos`);
+        console.log(`${dog.name} tem ${dog.age * 7} anos em "dog years"`);
+        console.groupEnd(`${dog.name}`)
       })
 
     // counting
+    console.count('Vambora gente')
+    console.count('Vambora Charmaine')
+    console.count('Vambora gente')
+    console.count('Vambora gente')
 
     // timing
+      console.time('fetching data');
+      fetch('https://api.github.com/users/wesbos')
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd('fetching data');
+      })
 
+    //table you can take an array of objects with the same properties
+      console.table(dogs)
   </script>
 </body>
 </html>
