@@ -9,7 +9,7 @@
   <p onClick="makeGreen()">×BREAK×DOWN×</p>
 
   <script>
-    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+    const dogs = [{ name: 'Fofinha', age: 2 }, { name: 'hugo', age: 8 }];
 
     function makeGreen() {
       const p = document.querySelector('p');
@@ -18,24 +18,43 @@
     }
 
     // Regular
+      console.log("hello")
 
     // Interpolated
+      console.log("Oi gente eu to um string %s", "feliz");
+      // console.log(`Hello I am ${variableHere}`)
 
-    // Styled
+    // Styled styles text in console
+      console.log("%c Eu to um texto otimo", "font-size:50px; background:red; text-shadow: 10px 10px 0 blue");
 
     // warning!
+      console.warn('Pare ai mesmo!');
 
     // Error :|
+      console.error('error!');
 
-    // Info
+    // Info should give info icon (didn't when I tried)
+      console.info('Você Partiu Meu Coração is a jam');
 
-    // Testing
+    // Testing checks if things are true. It will only fire if it is false.
+      const p = document.querySelector('p');
+      console.assert(p.classList.contains("vambora"), "Isso não e verdade")
+      // console.assert(1===1, "Isso é falso ")
 
-    // clearing
-
+    // clearing clearsthe console
+      console.clear();
     // Viewing DOM Elements
+      console.log(p)
+      console.dir(p)
+
+      console.clear();
 
     // Grouping together
+      dogs.forEach(dog => {
+        console.log('Esse é meu cachorro ${dog.name}');
+        console.log(`${dog.name} tem' ${dog.age} anos`);
+        console.log(`${dog.name} tem' ${dog.age * 7} anos em "dog years"`);
+      })
 
     // counting
 
