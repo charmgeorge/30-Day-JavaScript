@@ -8,7 +8,7 @@ const skipButtons = player.querySelectorAll('[data-skip]');
 const ranges = player.querySelectorAll('.player__slider');
 
 //Build out functions
-function togglePlay(){
+// function togglePlay(){
     // if(video.paused){
     //   video.play();
     // }else{
@@ -18,5 +18,13 @@ function togglePlay(){
       const method = video.paused ? 'play' : 'pause';
       video[method]();
     }
+
+function updateButton(){
+  console.log('Update the button');
 }
+
 //Hook up the even listeners
+video.addEventLister('click', togglePlay);
+video.addEventLister('play', updateButton);
+toggle.addEventLister('pause', updateButton);
+toggle.addEventLister('click', togglePlay);
