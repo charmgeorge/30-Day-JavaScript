@@ -20,7 +20,12 @@ const ranges = player.querySelectorAll('.player__slider');
     }
 
 function updateButton(){
-  console.log('Update the button');
+  const icon = this.paused ? '►' : '❚ ❚';
+  toggle.textContent = icon;
+}
+
+function skip(){
+
 }
 
 //Hook up the even listeners
@@ -28,3 +33,5 @@ video.addEventLister('click', togglePlay);
 video.addEventLister('play', updateButton);
 toggle.addEventLister('pause', updateButton);
 toggle.addEventLister('click', togglePlay);
+
+skipButtons.forEach(button => button.addEventListener('click', skip));
