@@ -25,13 +25,39 @@ function updateButton(){
 }
 
 function skip(){
-
+  console.log(this.dataset.skip);
+  //wrap in parseFloat because it's a string
+  video.currentTime += parseFloat(this.dataset.skip);
 }
 
-//Hook up the even listeners
+funciton handleRangeUpdate(){
+  video['this.name'] = this.value;
+  console.log(this.name);
+  console.log(this.value);
+}
+
+function handleProgress(){
+  const percent = (video.currentTime / video.duration) *100;
+  progressBar.style.flexBasis = `${percent}%`;
+}
+
+function scrub(){
+  const scrubTime =(e.offsetX/ progress.offsetWidth)*video.duration
+  video.currentTime = scrubTime;
+}
+
+//Hook up the event listeners
 video.addEventLister('click', togglePlay);
 video.addEventLister('play', updateButton);
 toggle.addEventLister('pause', updateButton);
-toggle.addEventLister('click', togglePlay);
+toggle.addEventLister('timeupdate', handleProgress);
 
 skipButtons.forEach(button => button.addEventListener('click', skip));
+ranges.forEach(range = range.addEventListener('change', handleRangeUpdate));
+ranges.forEach(range = range.addEventListener('mousemove', handleRangeUpdate));
+
+let mousedown = false;
+progress.addEventListener('click', scrub);
+progress.addEventListener('mousemove', ()=> mousdown && scrub(e));
+progress.addEventListener('mousedown',()=> mousedown = true);
+progress.addEventListener('mouseup', ()=> mousedown = false);
