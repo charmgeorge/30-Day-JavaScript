@@ -15,7 +15,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 9 - Dev Tools Domination 8/7/17 (console interpolated, style, warning, error, info, assert, clear, dir, group, count, time)
 - [X] 10 - Hold Shift and Check Checkboxes 8/13/17
 - [ ] 11 - Custom Video Player
-- [ ] 12 - Key Sequence Detection
+- [X] 12 - Key Sequence Detection 8/23/17 cornify_add()
 - [ ] 13 - Slide in on Scroll
 - [ ] 14 - JavaScript References VS Copying
 - [ ] 15 - LocalStorage
