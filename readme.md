@@ -16,7 +16,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 10 - Hold Shift and Check Checkboxes 8/13/17
 - [ ] 11 - Custom Video Player --needs to review code--
 - [X] 12 - Key Sequence Detection 8/23/17 cornify_add()
-- [ ] 13 - Slide in on Scroll
+- [X] 13 - Slide in on Scroll 8/29/17
 - [ ] 14 - JavaScript References VS Copying
 - [ ] 15 - LocalStorage
 - [ ] 16 - Mouse Move Shadow
