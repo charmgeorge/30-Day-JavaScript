@@ -36,7 +36,7 @@
     //"this" is the form
     const text = (this.querySelector('[name=item]')).value;
     const item = {
-      text:,
+      text,
       done: false
     };
 
@@ -46,11 +46,11 @@
     this.reset();
   }
 
-  function populateList(plates =[], platesList) {
+  function populateList(plates = [], platesList) {
     platesList.innerHTML = plates.map((plate, i) => {
       return `
         <li>
-          <input type="checkbox" data-index=${i} id="item${i}" ${plate.done ? 'checked' : ''}/>
+          <input type="checkbox" data-index=${i} id="item${i}" ${plate.done ? 'checked' : ''} />
           <label for="item${i}">${plate.text}</label>
         </li>
       `;
@@ -64,15 +64,16 @@
     const index = el.dataset.index;
     items[index].done = !items[index].done;
     localStorage.setItem('items', JSON.stringify(items));
-    populateList(items, itemsList);    
+    populateList(items, itemsList);
   }
 
-  addItems.addEventListener('submit',addItem);
+  addItems.addEventListener('submit', addItem);
+  itemsList.addEventListener('click', toggleDone);
 
   populateList(items, itemsList);
-  const checkBoxes = document.querySelector('input');
-
-  checkBoxes.forEach(input => input.addEventListener('click', () => alert('hi')));
+  // const checkBoxes = document.querySelector('input');
+  //
+  // checkBoxes.forEach(input => input.addEventListener('click', () => alert('hi')));
 
 </script>
 
