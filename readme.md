@@ -17,8 +17,8 @@ From [JavaScript30](https://javascript30.com/):
 - [ ] 11 - Custom Video Player --needs to review code--
 - [X] 12 - Key Sequence Detection 8/23/17 cornify_add()
 - [X] 13 - Slide in on Scroll 8/29/17
-- [X] 14 - JavaScript References VS Copying 9/5/17 
-- [ ] 15 - LocalStorage
+- [X] 14 - JavaScript References VS Copying 9/5/17
+- [X] 15 - LocalStorage 9/19/17  persisting data in local storage
 - [ ] 16 - Mouse Move Shadow
 - [ ] 17 - Sort Without Articles
 - [ ] 18 - Adding Up Times with Reduce
