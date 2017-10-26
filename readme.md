@@ -19,7 +19,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 13 - Slide in on Scroll 8/29/17
 - [X] 14 - JavaScript References VS Copying 9/5/17
 - [X] 15 - LocalStorage 9/19/17  persisting data in local storage
-- [ ] 16 - Mouse Move Shadow
+- [X] 16 - Mouse Move Shadow 10/25/17
 - [ ] 17 - Sort Without Articles
 - [ ] 18 - Adding Up Times with Reduce
 - [ ] 19 - Webcam Fun
