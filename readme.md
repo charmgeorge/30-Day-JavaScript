@@ -21,7 +21,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 15 - LocalStorage 9/19/17  persisting data in local storage
 - [X] 16 - Mouse Move Shadow 10/25/17
 - [X] 17 - Sort Without Articles 10/29/17
-- [ ] 18 - Adding Up Times with Reduce
+- [X] 18 - Adding Up Times with Reduce 10/31/17
 - [ ] 19 - Webcam Fun
 - [ ] 20 - Speech Detection
 - [ ] 21 - Geolocation
