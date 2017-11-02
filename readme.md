@@ -22,7 +22,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 16 - Mouse Move Shadow 10/25/17
 - [X] 17 - Sort Without Articles 10/29/17
 - [X] 18 - Adding Up Times with Reduce 10/31/17
-- [ ] 19 - Webcam Fun
+- [X] 19 - Webcam Fun 11/1/17 should review later
 - [ ] 20 - Speech Detection
 - [ ] 21 - Geolocation
 - [ ] 22 - Follow Along Link Highlighter
