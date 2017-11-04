@@ -23,7 +23,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 17 - Sort Without Articles 10/29/17
 - [X] 18 - Adding Up Times with Reduce 10/31/17
 - [X] 19 - Webcam Fun 11/1/17 should review later
-- [ ] 20 - Speech Detection
+- [X] 20 - Speech Detection 11/3/17 needs to test with microphone
 - [ ] 21 - Geolocation
 - [ ] 22 - Follow Along Link Highlighter
 - [ ] 23 - Speech Synthesis
