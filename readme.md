@@ -25,7 +25,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 19 - Webcam Fun 11/1/17 should review later
 - [X] 20 - Speech Detection 11/3/17 needs to test with microphone, npm install--> npm start
 - [X] 21 - Geolocation 11/4/17 needs to test with x code, npm install--> npm start
-- [ ] 22 - Follow Along Link Highlighter
+- [X] 22 - Follow Along Link Highlighter 11/5/17
 - [ ] 23 - Speech Synthesis
 - [ ] 24 - Sticky Nav
 - [ ] 25 - Event Capture, Propagation, Bubbling and Once
