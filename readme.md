@@ -26,7 +26,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 20 - Speech Detection 11/3/17 needs to test with microphone, npm install--> npm start
 - [X] 21 - Geolocation 11/4/17 needs to test with x code, npm install--> npm start
 - [X] 22 - Follow Along Link Highlighter 11/5/17
-- [ ] 23 - Speech Synthesis
+- [X] 23 - Speech Synthesis 11/6/17
 - [ ] 24 - Sticky Nav
 - [ ] 25 - Event Capture, Propagation, Bubbling and Once
 - [ ] 26 - Stripe Follow Along Nav
