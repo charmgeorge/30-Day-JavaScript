@@ -27,7 +27,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 21 - Geolocation 11/4/17 needs to test with x code, npm install--> npm start
 - [X] 22 - Follow Along Link Highlighter 11/5/17
 - [X] 23 - Speech Synthesis 11/6/17
-- [ ] 24 - Sticky Nav
+- [X] 24 - Sticky Nav 11/7/17 Nice navigation effect!!
 - [ ] 25 - Event Capture, Propagation, Bubbling and Once
 - [ ] 26 - Stripe Follow Along Nav
 - [ ] 27 - Click and Drag
