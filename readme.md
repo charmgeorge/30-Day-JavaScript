@@ -28,7 +28,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 22 - Follow Along Link Highlighter 11/5/17
 - [X] 23 - Speech Synthesis 11/6/17
 - [X] 24 - Sticky Nav 11/7/17 Nice navigation effect!!
-- [ ] 25 - Event Capture, Propagation, Bubbling and Once
+- [X] 25 - Event Capture, Propagation, Bubbling and Once 11/8/17
 - [ ] 26 - Stripe Follow Along Nav
 - [ ] 27 - Click and Drag
 - [ ] 28 - Video Speed Controller
