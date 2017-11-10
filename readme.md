@@ -29,7 +29,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 23 - Speech Synthesis 11/6/17
 - [X] 24 - Sticky Nav 11/7/17 Nice navigation effect!!
 - [X] 25 - Event Capture, Propagation, Bubbling and Once 11/8/17
-- [ ] 26 - Stripe Follow Along Nav
+- [X] 26 - Stripe Follow Along Nav 11/9/17
 - [ ] 27 - Click and Drag
 - [ ] 28 - Video Speed Controller
 - [ ] 29 - Countdown Timer
