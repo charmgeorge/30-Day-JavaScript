@@ -30,7 +30,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 24 - Sticky Nav 11/7/17 Nice navigation effect!!
 - [X] 25 - Event Capture, Propagation, Bubbling and Once 11/8/17
 - [X] 26 - Stripe Follow Along Nav 11/9/17
-- [ ] 27 - Click and Drag
+- [X] 27 - Click and Drag 11/11/17
 - [ ] 28 - Video Speed Controller
 - [ ] 29 - Countdown Timer
 - [ ] 30 - Whack A Mole
