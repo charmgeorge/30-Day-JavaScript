@@ -35,6 +35,39 @@
   </div>
 
 <script>
+  const slider = document.querySelector('.items');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  slider.addEventListener('mousedown', (e) => {
+    isDown = true;
+    slider.classList.add('active');
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+    // console.log(startX)
+  });
+
+  slider.addEventListener('mouseleave', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+
+  slider.addEventListener('mouseup', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+
+  slider.addEventListener('mousemove', (e) => {
+    if(!isDown) return; //this will sotp the function from running. The below won't get logged unless you're in the click state
+    // console.count(isDown)
+    // console.log(startX)
+    e.preventDefault();
+    const x = e.pageX - slider.offsetLeft;
+    // console.log({x, startX}); //can put the values in object to see the values
+    const walk = (x - startX) * 3;
+    slider.scrollLeft = scrollLeft - walk;
+  });
 </script>
 
   </body>
