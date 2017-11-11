@@ -31,6 +31,6 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 25 - Event Capture, Propagation, Bubbling and Once 11/8/17
 - [X] 26 - Stripe Follow Along Nav 11/9/17
 - [X] 27 - Click and Drag 11/11/17
-- [ ] 28 - Video Speed Controller
+- [X] 28 - Video Speed Controller11/11/17 speed control works but video not playing
 - [ ] 29 - Countdown Timer
 - [ ] 30 - Whack A Mole
