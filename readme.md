@@ -1,6 +1,6 @@
 ## 30 Day JavaScript
 
-30 challenges to do in 30(ish) days.
+30 challenges to do ~~in 30(ish) days~~.
 
 From [JavaScript30](https://javascript30.com/):
 
@@ -33,4 +33,4 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 27 - Click and Drag 11/11/17
 - [X] 28 - Video Speed Controller 11/11/17 speed control works but video not playing
 - [X] 29 - Countdown Timer 11/13/17
-- [ ] 30 - Whack A Mole
+- [X] 30 - Whack A Mole 11/14/17 
