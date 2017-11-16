@@ -14,7 +14,7 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 8 - Fun with HTML5 Canvas 8/3/17 (es6 syntax, globalCompositeOperation, flag)
 - [X] 9 - Dev Tools Domination 8/7/17 (console interpolated, style, warning, error, info, assert, clear, dir, group, count, time)
 - [X] 10 - Hold Shift and Check Checkboxes 8/13/17
-- [ ] 11 - Custom Video Player --needs to review code--
+- [X] 11 - Custom Video Player 11/15/17 ~~needs to review code~~
 - [X] 12 - Key Sequence Detection 8/23/17 cornify_add()
 - [X] 13 - Slide in on Scroll 8/29/17
 - [X] 14 - JavaScript References VS Copying 9/5/17
@@ -33,4 +33,4 @@ From [JavaScript30](https://javascript30.com/):
 - [X] 27 - Click and Drag 11/11/17
 - [X] 28 - Video Speed Controller 11/11/17 speed control works but video not playing
 - [X] 29 - Countdown Timer 11/13/17
-- [X] 30 - Whack A Mole 11/14/17 
+- [X] 30 - Whack A Mole 11/14/17
